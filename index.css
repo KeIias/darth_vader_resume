@@ -1,0 +1,82 @@
+section {
+	box-sizing: border-box;
+	display: flex;
+	height: 100vh; 
+	align-items: center;
+	justify-content: center;
+	text-align: center; 
+	flex-direction: column;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+section:first-of-type, section.pop { 
+	color: #fff;
+}
+section:nth-of-type(even) { 
+	background: #fff;
+	height: 40vh; 
+}
+
+section:nth-of-type(1) { 
+	background-image: url(https://i.imgur.com/JtzyF9J.png); 
+}
+
+section:nth-of-type(2) {
+    background-image: url(https://i.imgur.com/R14MyHH.png);
+}
+
+section:nth-of-type(3) { 
+    background-image: url(https://i.imgur.com/njcmIfh.jpg);
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+  }
+
+.right {
+	display: block;
+	margin-left: 1400;
+	margin-right: 0;
+	width: auto;
+  }
+
+
+#negative {
+	-webkit-filter: invert(1);
+	filter: invert(1);
+	mix-blend-mode: multiply;
+   }
+.transparent{
+	mix-blend-mode: multiply;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+}
+.box {
+	margin-right:auto;
+	margin-left:auto;
+	width:1000px;   
+	border:solid 1px black;
+	border-radius:10px;
+	background-color:rgb(128, 128, 128);
+  }
+  
+ .box2 {
+	margin-right: 0;
+	margin-left: 1400;
+	width:500px;   
+	border:solid 1px black;
+	border-radius:10px;
+	background-color:rgb(128, 128, 128);
+	color:black;
+  }
+
+body{
+	background-color:black;
+}
